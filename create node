@@ -1,0 +1,17 @@
+#include<iostream>
+#include<cstdlib>
+using namespace std;
+
+struct node
+{
+	int info;
+	struct node *next;
+};
+
+main()
+{
+	struct node *ptr = (struct node*) malloc(sizeof(struct node));
+	ptr->info = 6;
+	ptr->next = NULL;
+	cout << ptr->info;	
+}
