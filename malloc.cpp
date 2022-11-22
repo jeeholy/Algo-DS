@@ -4,7 +4,7 @@ using namespace std;
 
 main(){
 	int *ptr = (int*) malloc(sizeof(int));
-	*ptr = 2;
+	cin >> *ptr;
 	cout << ptr << endl;
 	cout << *ptr << endl;
 }
