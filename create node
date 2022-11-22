@@ -11,7 +11,7 @@ struct node
 main()
 {
 	struct node *ptr = (struct node*) malloc(sizeof(struct node));
-	ptr->info = 6;
+	cin >> ptr->info;
 	ptr->next = NULL;
 	cout << ptr->info;	
 }
