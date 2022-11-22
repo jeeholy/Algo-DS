@@ -4,7 +4,7 @@ using namespace std;
 main(){
 	int a;
 	int *ptr;
-	a = 10;
+	cin >> a;
 	ptr = &a;
 	cout << "a: " << a << endl;
 	cout << "ptr: " << ptr << endl;
