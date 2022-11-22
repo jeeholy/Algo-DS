@@ -7,6 +7,6 @@ main(){
 	for(int i = 0; i < 5; i++)
 		cin >> ptr[i];
 	for(int i = 0; i < 5; i++){
-		cout << "ptr[" << i << "] = " << ptr[i] << endl;
+		cout << "ptr[" << i << "] = " << ptr[i] << ", *(ptr+i) = " << *(ptr+i) << endl;
 	}
 }
