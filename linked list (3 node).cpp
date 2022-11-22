@@ -14,10 +14,10 @@ main()
 	struct node *two = (struct node*) malloc(sizeof(struct node));
 	struct node *three = (struct node*) malloc(sizeof(struct node));
 	one->info = 1;
-	one->next = two;
 	two->info = 2;
-	two->next = three;
 	three->info = 3;
+	one->next = two;
+	two->next = three;
 	three->next = NULL;
 	
 	cout << one->info << endl;	
